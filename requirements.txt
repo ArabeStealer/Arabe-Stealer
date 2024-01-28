@@ -1,0 +1,10 @@
+requests
+Crypto.Cipher
+pycryptodome
+customtkinter
+packaging
+tk
+subprocess.run
+Crypto
+jsonlib
+pysqlite3
